@@ -8,7 +8,9 @@ void draw() {
     drawACircleAt(mouseX, mouseY);
   }
 }
-
+void drawABlueSquare(){
+  fill(0,0, 255)
+  rect(
 void drawARandomCircle() {
   float sz = random(5, 150);
   fill(random(255), 0, random(100, 255));
